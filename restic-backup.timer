@@ -1,0 +1,8 @@
+[Unit]
+Description=Trigger Restic Backup 5 Minutes After Boot
+
+[Timer]
+OnBootSec=5min
+
+[Install]
+WantedBy=timers.target

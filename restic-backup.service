@@ -1,0 +1,8 @@
+[Unit]
+Description=Backup Files with Restic
+
+[Service]
+ExecStart=/usr/local/bin/restic-backup.sh
+
+[Install]
+WantedBy=multi-user.target
