@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #you need to replace username and ip address with your own.
 RESTIC_REPOSITORY="sftp:user@ipaddress:/home/username/restic-backup"
 PASSWORD="test"
